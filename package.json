@@ -1,0 +1,31 @@
+{
+  "name": "youtube-api",
+  "version": "0.0.1",
+  "description": "Promise-based Youtube API v3 wrapper in TypeScript. Handles pagination and other redondant operations for you.",
+  "main": "./dist/index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "tsc; node dist/test.js;"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/7PH/Youtube-API.git"
+  },
+  "keywords": [
+    "youtube",
+    "api",
+    "v3",
+    "typescript",
+    "promise",
+    "read-only",
+    "wrapper"
+  ],
+  "author": "Benjamin RAYMOND <b.raymond@protonmail.ch>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/7PH/Youtube-API/issues"
+  },
+  "homepage": "https://github.com/7PH/Youtube-API#readme"
+}
