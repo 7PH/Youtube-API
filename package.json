@@ -1,8 +1,9 @@
 {
     "name": "youtube-search-playlist",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Promise-based Youtube API v3 wrapper in TypeScript for searching playlist content. Handles pagination for you.",
     "main": "./dist/index.js",
+    "bin": { "youtube-search-playlist": "./dist/global.js" },
     "directories": {
         "test": "tests"
     },
